@@ -1,12 +1,19 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState } from 'react';
 const App = () => {
-  const [var_Name, setVar_Name] = useState(2)
-  
+  const [name, setName] = useState('');
+
   return (
     <div>
-      <div>{var_Name}</div>
-      <button className='ss' onClick={()=>{setVar_Name(var_Name+1)}}>Change</button>
+      <form action="" onSubmit={(e)=>{
+        e.preventDefault()
+        console.log("hello ", name)
+        setName('')
+      }}>
+        <input onChange={(e)=>{setName(e.target.value)}} value={name} className="bg-amber-600 " type="text" placeholder='Enter your name ' />
+        <br />
+        <button>Submit</button>
+      </form>
     </div>
   )
 }
