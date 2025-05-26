@@ -1,20 +1,17 @@
-import React from 'react'
-import { useState } from 'react';
+import React, { useState } from 'react'
+import { Navbar } from './Components/Navbar'
+import { Display } from './Components/Display'
 const App = () => {
-  const [name, setName] = useState('');
-
+  const [user, setUser] = useState('Sahil')
   return (
-    <div>
-      <form action="" onSubmit={(e)=>{
-        e.preventDefault()
-        console.log("hello ", name)
-        setName('')
-      }}>
-        <input onChange={(e)=>{setName(e.target.value)}} value={name} className="bg-amber-600 " type="text" placeholder='Enter your name ' />
-        <br />
-        <button>Submit</button>
-      </form>
-    </div>
+    <>
+      <Display/>
+      <button className='btn' onClick={()=>{
+        setUser("Sk")
+      }} onDoubleClick={()=>{
+        setUser("Sahil")
+      }}>Click</button>
+    </>
   )
 }
 

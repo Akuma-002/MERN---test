@@ -1,0 +1,62 @@
+[
+  {
+    "username": "tech_guru",
+    "age": 25,
+    "city": "New York",
+    "profile_photo": "https://example.com/photos/tech_guru.jpg"
+  },
+  {
+    "username": "coder_ella",
+    "age": 22,
+    "city": "San Francisco",
+    "profile_photo": "https://example.com/photos/coder_ella.jpg"
+  },
+  {
+    "username": "dev_master",
+    "age": 30,
+    "city": "Chicago",
+    "profile_photo": "https://example.com/photos/dev_master.jpg"
+  },
+  {
+    "username": "ai_junkie",
+    "age": 28,
+    "city": "Boston",
+    "profile_photo": "https://example.com/photos/ai_junkie.jpg"
+  },
+  {
+    "username": "robot_ron",
+    "age": 26,
+    "city": "Seattle",
+    "profile_photo": "https://example.com/photos/robot_ron.jpg"
+  },
+  {
+    "username": "web_wizard",
+    "age": 24,
+    "city": "Austin",
+    "profile_photo": "https://example.com/photos/web_wizard.jpg"
+  },
+  {
+    "username": "data_diva",
+    "age": 27,
+    "city": "Denver",
+    "profile_photo": "https://example.com/photos/data_diva.jpg"
+  },
+  {
+    "username": "byte_boy",
+    "age": 21,
+    "city": "Miami",
+    "profile_photo": "https://example.com/photos/byte_boy.jpg"
+  },
+  {
+    "username": "script_sam",
+    "age": 29,
+    "city": "Atlanta",
+    "profile_photo": "https://example.com/photos/script_sam.jpg"
+  },
+  {
+    "username": "neural_nina",
+    "age": 23,
+    "city": "Los Angeles",
+    "profile_photo": "https://example.com/photos/neural_nina.jpg"
+  }
+]
