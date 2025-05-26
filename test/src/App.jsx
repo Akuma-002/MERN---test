@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <div>{var_Name}</div>
-      <button onClick={()=>{}}>Change</button>
+      <button onClick={()=>{setVar_Name}}>Change</button>
     </div>
   )
 }
