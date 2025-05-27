@@ -4,10 +4,11 @@ import './index.css'
 import App from './App.jsx'
 import "./style.css"
 import { BrowserRouter } from 'react-router-dom'
+import Usercontext from './ContextAPI/Usercontext.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-      <App />
+    <Usercontext><App /></Usercontext>
     </BrowserRouter>
   </StrictMode>,
 )
