@@ -4,7 +4,9 @@ const Usercontext = ({children}) => {
     
     const [user, setUser] = useState("Sahil");
   return (
-    <DataContext.Provider value={[user, setUser]}>{children}</DataContext.Provider>
+    <DataContext.Provider value={[user, setUser]}>
+      {children}
+    </DataContext.Provider>
   )
 }
 
